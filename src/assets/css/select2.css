@@ -1,0 +1,144 @@
+/* .custom-select .css-1dimb5e-singleValue,
+.custom-select .css-166bipr-Input,
+.custom-select .css-qbdosj-Input {
+    @apply dark:text-white-dark text-black;
+}
+
+.custom-select .css-1fdsijx-ValueContainer {
+    @apply !pl-4;
+}
+.custom-select .css-b62m3t-container > div {
+    @apply bg-white dark:bg-[#1b2e4b] border-[rgb(224,230,237)] dark:border-[#253b5c] hover:border-inherit;
+}
+.custom-select .css-b62m3t-container > div:first-of-type {
+    @apply shadow-none;
+}
+
+.custom-select .css-1nmdiq5-menu > div > div {
+    @apply hover:!bg-[#f6f6f6] dark:hover:!bg-[#132136] !bg-transparent;
+}
+.custom-select .css-1nmdiq5-menu > div > div[aria-disabled='true'] {
+    @apply !bg-transparent !text-[#999];
+}
+.custom-select .css-1nmdiq5-menu > div > .css-tr4s17-option {
+    @apply !bg-[#f6f6f6] dark:!bg-[#132136] dark:!text-white-dark !text-black;
+}
+.custom-select .css-1xc3v61-indicatorContainer {
+    @apply dark:text-white-dark text-[#999];
+}
+.custom-select .css-1u9des2-indicatorSeparator {
+    @apply hidden;
+}
+.custom-select .css-1p3m7a8-multiValue {
+    @apply !bg-success !text-white;
+}
+.custom-select .css-wsp0cs-MultiValueGeneric {
+    @apply !text-white;
+} */
+
+.text-decoration > .my-react-select-container > .my-react-select__control > .my-react-select__value-container > .my-react-select__single-value {
+    text-decoration: line-through !important;
+}
+
+.my-react-select-container .my-react-select__control {
+    @apply bg-white  dark:border-[#253b5c] dark:bg-[#121e32];
+    /* @apply border-danger bg-danger/[0.08] text-danger placeholder-danger/70 focus:border-danger; */
+}
+
+/* .css-1n6sfyn-MenuList {
+  max-height: 140px !important;
+} */
+
+.my-react-select__option--is-disabled {
+    color: gray !important;
+    opacity: 0.5 !important;
+}
+
+/* .my-react-select__option--is-disabled:hover {
+  @apply bg-white dark:bg-[#c3c7ce] !important;
+} */
+
+.my-react-select__single-value {
+    @apply font-semibold text-black dark:text-[#888ea8] !important;
+}
+
+.css-16xfy0z-control {
+    @apply bg-[#F1F0F7] !important;
+}
+
+.my-react-select__multi-value__label {
+    @apply font-semibold text-black  !important;
+}
+
+.has-error .my-react-select__control {
+    @apply border-[#e7515a] bg-[#e7515a14] !important;
+}
+
+.has-error .my-react-select__indicator-separator {
+    @apply text-[#e7515a] !important;
+}
+
+.has-error .my-react-select__placeholder {
+    @apply text-[#e7515a] !important;
+}
+
+.my-react-select__single-value {
+    @apply dark:text-[#ebedf2];
+}
+.has-error .my-react-select__control {
+    @apply border-danger bg-danger/[0.08] text-danger placeholder-danger/70 focus:border-danger;
+}
+
+.has-error-date-picker {
+    @apply border-danger bg-danger/[0.08] text-danger placeholder-danger/70 focus:border-danger !important;
+}
+
+.my-react-select-container .my-react-select__control--is-focused {
+    @apply bg-white dark:border-[#253b5c];
+}
+
+.my-react-select-container .my-react-select__menu {
+    @apply z-50 bg-white dark:border-neutral-600 dark:bg-[#121e32];
+}
+
+.my-react-select-container .my-react-select__option {
+    @apply bg-white text-neutral-600 hover:bg-neutral-200 dark:bg-[#121e32] dark:text-neutral-200 dark:hover:!bg-[#213147];
+}
+
+.custom-select .css-1dimb5e-singleValue,
+.custom-select .css-166bipr-Input,
+.custom-select .css-qbdosj-Input {
+    @apply text-black dark:text-white-dark;
+}
+
+.custom-select .css-1fdsijx-ValueContainer {
+    @apply !pl-4;
+}
+.custom-select .css-b62m3t-container > div {
+    @apply border-[rgb(224,230,237)] bg-white hover:border-inherit dark:border-[#253b5c] dark:bg-[#1b2e4b];
+}
+.custom-select .css-b62m3t-container > div:first-of-type {
+    @apply shadow-none;
+}
+
+.custom-select .css-1nmdiq5-menu > div > div {
+    @apply !bg-transparent hover:!bg-[#f6f6f6] dark:hover:!bg-[#132136];
+}
+.custom-select .css-1nmdiq5-menu > div > div[aria-disabled='true'] {
+    @apply !bg-transparent !text-[#999];
+}
+.custom-select .css-1nmdiq5-menu > div > .css-tr4s17-option {
+    @apply !bg-[#f6f6f6] !text-black dark:!bg-[#132136] dark:!text-white-dark;
+}
+.custom-select .css-1xc3v61-indicatorContainer {
+    @apply text-[#999] dark:text-white-dark;
+}
+.custom-select .css-1u9des2-indicatorSeparator {
+    @apply hidden;
+}
+.custom-select .css-1p3m7a8-multiValue {
+    @apply !bg-success !text-white;
+}
+.custom-select .css-wsp0cs-MultiValueGeneric {
+    @apply !text-white;
+}
